@@ -1,4 +1,4 @@
-plugin: ad
+plugin: auto
 server: dc.example.com
 port: 636
 base: DC=example,DC=com
