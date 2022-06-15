@@ -1,0 +1,8 @@
+plugin: ad
+server: dc.example.com
+port: 636
+base: DC=example,DC=com
+username: EXAMPLE\ExampleUser  # or distinguishedname
+password: hunter2
+filter: "(operatingSystem=Debian GNU/Linux)"
+ansible group: Debian
